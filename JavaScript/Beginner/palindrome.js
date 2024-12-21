@@ -1,5 +1,5 @@
 // This program checks if a string is a palindrome
-let str = "madam";  // Change the string here
+let str = prompt("Enter a string to check if it's a palindrome:");
 let reversedStr = str.split('').reverse().join('');
 
 if (str === reversedStr) {
