@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char s[100]; // Allocate memory for the string with a sufficient size
+    char s[30]; // Allocate memory for the string with a sufficient size
     printf("Hello World!\n");
 
     printf("Enter your full name: ");
