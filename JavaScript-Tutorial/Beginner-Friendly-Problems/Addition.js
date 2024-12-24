@@ -125,3 +125,8 @@ console.log("Left shift of num1 by 1 is: " + leftShift);
 let rightShift = num1 >> 1;
 console.log("Right shift of num1 by 1 is: " + rightShift);
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// String Operators
+// 1. Concatenation
+let greeting = "Hello, " + "World!";
+console.log("String concatenation result: " + greeting);
