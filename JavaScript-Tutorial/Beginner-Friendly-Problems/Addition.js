@@ -208,3 +208,9 @@ let num1Decrement = num1--;
 console.log("Decrement value of num1 is: " + num1Decrement);
 
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Comma Operator 
+let commaOperator = (num1, num2) => num1 + num2;
+console.log("Comma operator result: " + commaOperator(5, 10));
+
+
