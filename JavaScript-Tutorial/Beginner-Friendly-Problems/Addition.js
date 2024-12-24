@@ -163,8 +163,32 @@ console.log("Left shift of num1 by 1 is: " + leftShift);
 let rightShift = num1 >> 1;
 console.log("Right shift of num1 by 1 is: " + rightShift);
 
+// 7. Unsigned right shift 
+let unsignedRightShift = num1 >>> 1; // Changed `>>` to `>>>` for unsigned right shift
+console.log("Result of unsigned right shift (num1 >>> 1): " + unsignedRightShift);
+
+
 // ---------------------------------------------------------------------------------------------------------------------------------
 // String Operators
 // 1. Concatenation
 let greeting = "Hello, " + "World!";
 console.log("String concatenation result: " + greeting);
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Conditional (Ternary) Operator 
+// 1. Ternary Operator 
+let ternaryResult = (num1 > num2) ? "num1 is greater" : "num2 is greater";
+console.log("Ternary operator result: " + ternaryResult);
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Type Operators 
+// 1. typeof Operator
+let typeOfNum1 = typeof num1;
+console.log("Type of num1 is: " + typeOfNum1);
+// 2. instanceof Operator
+let instanceOfNum1 = num1 instanceof Number;
+console.log("Is num1 an instance of Number? " + instanceOfNum1);
+
+
