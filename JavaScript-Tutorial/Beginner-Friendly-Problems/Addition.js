@@ -50,3 +50,11 @@ console.log("Value of num1 after using minus equal to operator is: " + num1);
 num1 *= num2;
 console.log("Value of num1 after using multiply equal to operator is: " + num1);
 
+// 5. Divide equal to operator
+num1 /= num2;
+console.log("Value of num1 after using divide equal to operator is: " + num1);
+
+// 6. Modulus equal to operator
+num1 %= num2;
+console.log("Value of num1 after using modulus equal to operator is: " + num1);
+
