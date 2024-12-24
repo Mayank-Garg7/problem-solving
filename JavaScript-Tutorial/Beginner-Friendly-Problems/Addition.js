@@ -4,8 +4,8 @@
 let num1 = parseInt(prompt("Enter the first number: "));
 let num2 = parseInt(prompt("Enter the second number: "));
 
-// ---------------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------------------------------------------------------------
 // Arithmetic Operators
 // 1. Addition
 let sum = num1 + num2;
@@ -31,8 +31,8 @@ console.log("Remainder of two given numbers is: " + remainder);
 let power = Math.pow(num1, num2);
 console.log("Exponentiation of two given numbers is: " + power);
 
-// ---------------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------------------------------------------------------------
 // Assignment Operators
 // 1. Equal to operator
 num1 = num2;
@@ -57,6 +57,35 @@ console.log("Value of num1 after using divide equal to operator is: " + num1);
 // 6. Modulus equal to operator
 num1 %= num2;
 console.log("Value of num1 after using modulus equal to operator is: " + num1);
+
+// 7. **= Exponentiation assignment
+num1 **= num2;
+console.log("Value of num1 after using exponentiation assignment operator is: " + num1);
+
+// 8. Bitwise AND assignment operator 
+num1 &= num2;
+console.log("Value of num1 after using bitwise AND assignment operator is: " + num1);
+
+// 9. Bitwise OR assignment operator
+num1 |= num2;
+console.log("Value of num1 after using bitwise OR assignment operator is: " + num1);
+
+// 10. Bitwise XOR assignment operator
+num1 ^= num2;
+console.log("Value of num1 after using bitwise XOR assignment operator is: " + num1);
+
+// 11. Bitwise left shift assignment operator
+num1 <<= num2;
+console.log("Value of num1 after using bitwise left shift assignment operator is: " + num1);
+
+// 12. Bitwise right shift assignment operator
+num1 >>= num2;
+console.log("Value of num1 after using bitwise right shift assignment operator is: " + num1);
+
+// 13. Bitwise unsigned right shift assignment operator
+num1 >>>= num2;
+console.log("Value of num1 after using bitwise unsigned right shift assignment operator is: " + num);
+
 
 // ---------------------------------------------------------------------------------------------------------------------------------
 // Comparison Operators
@@ -84,6 +113,15 @@ console.log("Is num1 greater than or equal to num2? " + isGreaterThanOrEqualTo);
 let isLessThanOrEqualTo = num1 <= num2;
 console.log("Is num1 less than or equal to num2? " + isLessThanOrEqualTo);
 
+// 7. Strictly equal to 
+let strictEqual = num1 === num2;
+console.log("Is num1 strictly equal to num2 in both value and data type? " + strictEqual);
+
+// 8. Strictly not equal to 
+let strNotEqual = num1 !== num2;
+console.log("Is num1 strictly not equal to num2 in both value and data type? " + strNotEqual);
+
+
 // ---------------------------------------------------------------------------------------------------------------------------------
 // Logical Operators
 // 1. Logical AND
@@ -97,3 +135,36 @@ console.log("Is at least one of num1 or num2 greater than 0? " + orResult);
 // 3. Logical NOT
 let notResult = !(num1 > num2);
 console.log("Is num1 not greater than num2? " + notResult);
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Bitwise Operators
+// 1. Bitwise AND
+let bitwiseAnd = num1 & num2;
+console.log("Bitwise AND of num1 and num2 is: " + bitwiseAnd);
+
+// 2. Bitwise OR
+let bitwiseOr = num1 | num2;
+console.log("Bitwise OR of num1 and num2 is: " + bitwiseOr);
+
+// 3. Bitwise XOR
+let bitwiseXor = num1 ^ num2;
+console.log("Bitwise XOR of num1 and num2 is: " + bitwiseXor);
+
+// 4. Bitwise NOT
+let bitwiseNot = ~num1;
+console.log("Bitwise NOT of num1 is: " + bitwiseNot);
+
+// 5. Left Shift
+let leftShift = num1 << 1;
+console.log("Left shift of num1 by 1 is: " + leftShift);
+
+// 6. Right Shift
+let rightShift = num1 >> 1;
+console.log("Right shift of num1 by 1 is: " + rightShift);
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// String Operators
+// 1. Concatenation
+let greeting = "Hello, " + "World!";
+console.log("String concatenation result: " + greeting);
