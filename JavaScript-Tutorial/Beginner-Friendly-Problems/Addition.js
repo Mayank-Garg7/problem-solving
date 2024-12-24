@@ -84,3 +84,16 @@ console.log("Is num1 greater than or equal to num2? " + isGreaterThanOrEqualTo);
 let isLessThanOrEqualTo = num1 <= num2;
 console.log("Is num1 less than or equal to num2? " + isLessThanOrEqualTo);
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Logical Operators
+// 1. Logical AND
+let andResult = (num1 > 0) && (num2 > 0);
+console.log("Are both num1 and num2 greater than 0? " + andResult);
+
+// 2. Logical OR
+let orResult = (num1 > 0) || (num2 > 0);
+console.log("Is at least one of num1 or num2 greater than 0? " + orResult);
+
+// 3. Logical NOT
+let notResult = !(num1 > num2);
+console.log("Is num1 not greater than num2? " + notResult);
