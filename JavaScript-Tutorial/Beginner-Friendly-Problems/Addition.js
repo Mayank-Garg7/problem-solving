@@ -182,3 +182,13 @@ let ternaryResult = (num1 > num2) ? "num1 is greater" : "num2 is greater";
 console.log("Ternary operator result: " + ternaryResult);
 
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Type Operators 
+// 1. typeof Operator
+let typeOfNum1 = typeof num1;
+console.log("Type of num1 is: " + typeOfNum1);
+// 2. instanceof Operator
+let instanceOfNum1 = num1 instanceof Number;
+console.log("Is num1 an instance of Number? " + instanceOfNum1);
+
+
