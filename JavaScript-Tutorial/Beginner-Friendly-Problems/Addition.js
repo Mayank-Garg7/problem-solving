@@ -30,3 +30,23 @@ console.log("Remainder of two given numbers is: " + remainder);
 // 6. Exponentiation
 let power = Math.pow(num1, num2);
 console.log("Exponentiation of two given numbers is: " + power);
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+
+// Assignment Operators
+// 1. Equal to operator
+num1 = num2;
+console.log("Value of num1 after using equal to operator is: " + num1);
+
+// 2. Plus equal to operator
+num1 += num2;
+console.log("Value of num1 after using plus equal to operator is: " + num1);
+
+// 3. Minus equal to operator
+num1 -= num2;
+console.log("Value of num1 after using minus equal to operator is: " + num1);
+
+// 4. Multiply equal to operator
+num1 *= num2;
+console.log("Value of num1 after using multiply equal to operator is: " + num1);
+
