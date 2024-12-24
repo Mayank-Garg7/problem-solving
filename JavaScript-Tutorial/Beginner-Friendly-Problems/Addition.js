@@ -97,3 +97,31 @@ console.log("Is at least one of num1 or num2 greater than 0? " + orResult);
 // 3. Logical NOT
 let notResult = !(num1 > num2);
 console.log("Is num1 not greater than num2? " + notResult);
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Bitwise Operators
+// 1. Bitwise AND
+let bitwiseAnd = num1 & num2;
+console.log("Bitwise AND of num1 and num2 is: " + bitwiseAnd);
+
+// 2. Bitwise OR
+let bitwiseOr = num1 | num2;
+console.log("Bitwise OR of num1 and num2 is: " + bitwiseOr);
+
+// 3. Bitwise XOR
+let bitwiseXor = num1 ^ num2;
+console.log("Bitwise XOR of num1 and num2 is: " + bitwiseXor);
+
+// 4. Bitwise NOT
+let bitwiseNot = ~num1;
+console.log("Bitwise NOT of num1 is: " + bitwiseNot);
+
+// 5. Left Shift
+let leftShift = num1 << 1;
+console.log("Left shift of num1 by 1 is: " + leftShift);
+
+// 6. Right Shift
+let rightShift = num1 >> 1;
+console.log("Right shift of num1 by 1 is: " + rightShift);
+
