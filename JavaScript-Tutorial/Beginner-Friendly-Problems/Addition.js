@@ -4,8 +4,8 @@
 let num1 = parseInt(prompt("Enter the first number: "));
 let num2 = parseInt(prompt("Enter the second number: "));
 
-// ---------------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------------------------------------------------------------
 // Arithmetic Operators
 // 1. Addition
 let sum = num1 + num2;
@@ -31,8 +31,8 @@ console.log("Remainder of two given numbers is: " + remainder);
 let power = Math.pow(num1, num2);
 console.log("Exponentiation of two given numbers is: " + power);
 
-// ---------------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------------------------------------------------------------
 // Assignment Operators
 // 1. Equal to operator
 num1 = num2;
@@ -86,8 +86,8 @@ console.log("Value of num1 after using bitwise right shift assignment operator i
 num1 >>>= num2;
 console.log("Value of num1 after using bitwise unsigned right shift assignment operator is: " + num);
 
-// ---------------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------------------------------------------------------------
 // Comparison Operators
 // 1. Equal to operator
 let isEqual = num1 == num2;
@@ -112,6 +112,15 @@ console.log("Is num1 greater than or equal to num2? " + isGreaterThanOrEqualTo);
 // 6. Less than or equal to operator
 let isLessThanOrEqualTo = num1 <= num2;
 console.log("Is num1 less than or equal to num2? " + isLessThanOrEqualTo);
+
+// 7. Strictly equal to 
+let strictEqual = num1 === num2;
+console.log("Is num1 strictly equal to num2 in both value and data type? " + strictEqual);
+
+// 8. Strictly not equal to 
+let strNotEqual = num1 !== num2;
+console.log("Is num1 strictly not equal to num2 in both value and data type? " + strNotEqual);
+
 
 // ---------------------------------------------------------------------------------------------------------------------------------
 // Logical Operators
