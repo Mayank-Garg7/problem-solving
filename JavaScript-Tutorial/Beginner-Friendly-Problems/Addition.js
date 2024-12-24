@@ -175,3 +175,10 @@ let greeting = "Hello, " + "World!";
 console.log("String concatenation result: " + greeting);
 
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Conditional (Ternary) Operator 
+// 1. Ternary Operator 
+let ternaryResult = (num1 > num2) ? "num1 is greater" : "num2 is greater";
+console.log("Ternary operator result: " + ternaryResult);
+
+
