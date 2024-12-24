@@ -192,3 +192,19 @@ let instanceOfNum1 = num1 instanceof Number;
 console.log("Is num1 an instance of Number? " + instanceOfNum1);
 
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Unary Operators 
+// 1. Unary Plus
+let unaryPlus = +num1;
+console.log("Unary plus of num1 is: " + unaryPlus);
+// 2. Unary Minus
+let unaryMinus = -num1;
+console.log("Unary minus of num1 is: " + unaryMinus);
+// 3. Increment Operator
+let num1Incremented = num1++;
+console.log("Incremented value of num1 is: " + num1Incremented);
+// 4. Decrement Operator
+let num1Decrement = num1--;
+console.log("Decrement value of num1 is: " + num1Decrement);
+
+
