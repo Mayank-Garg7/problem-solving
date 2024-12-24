@@ -163,6 +163,10 @@ console.log("Left shift of num1 by 1 is: " + leftShift);
 let rightShift = num1 >> 1;
 console.log("Right shift of num1 by 1 is: " + rightShift);
 
+// 7. Unsigned right shift 
+let unsignedRightShift = num1 >>> 1; // Changed `>>` to `>>>` for unsigned right shift
+console.log("Result of unsigned right shift (num1 >>> 1): " + unsignedRightShift);
+
 // ---------------------------------------------------------------------------------------------------------------------------------
 // String Operators
 // 1. Concatenation
