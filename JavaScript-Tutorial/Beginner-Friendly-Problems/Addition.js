@@ -58,7 +58,36 @@ console.log("Value of num1 after using divide equal to operator is: " + num1);
 num1 %= num2;
 console.log("Value of num1 after using modulus equal to operator is: " + num1);
 
+// 7. **= Exponentiation assignment
+num1 **= num2;
+console.log("Value of num1 after using exponentiation assignment operator is: " + num1);
+
+// 8. Bitwise AND assignment operator 
+num1 &= num2;
+console.log("Value of num1 after using bitwise AND assignment operator is: " + num1);
+
+// 9. Bitwise OR assignment operator
+num1 |= num2;
+console.log("Value of num1 after using bitwise OR assignment operator is: " + num1);
+
+// 10. Bitwise XOR assignment operator
+num1 ^= num2;
+console.log("Value of num1 after using bitwise XOR assignment operator is: " + num1);
+
+// 11. Bitwise left shift assignment operator
+num1 <<= num2;
+console.log("Value of num1 after using bitwise left shift assignment operator is: " + num1);
+
+// 12. Bitwise right shift assignment operator
+num1 >>= num2;
+console.log("Value of num1 after using bitwise right shift assignment operator is: " + num1);
+
+// 13. Bitwise unsigned right shift assignment operator
+num1 >>>= num2;
+console.log("Value of num1 after using bitwise unsigned right shift assignment operator is: " + num);
+
 // ---------------------------------------------------------------------------------------------------------------------------------
+
 // Comparison Operators
 // 1. Equal to operator
 let isEqual = num1 == num2;
