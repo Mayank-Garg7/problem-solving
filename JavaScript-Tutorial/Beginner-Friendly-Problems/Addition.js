@@ -222,7 +222,3 @@ console.log("Spread operator result: " + spreadOperator);
 // 2. Rest Operator
 let restOperator = (...args) => args;
 console.log("Rest operator result: " + restOperator(1, 2, 3, 4, 5));
-
-
-// ---------------------------------------------------------------------------------------------------------------------------------
-
