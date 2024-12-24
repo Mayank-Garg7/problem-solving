@@ -58,3 +58,29 @@ console.log("Value of num1 after using divide equal to operator is: " + num1);
 num1 %= num2;
 console.log("Value of num1 after using modulus equal to operator is: " + num1);
 
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Comparison Operators
+// 1. Equal to operator
+let isEqual = num1 == num2;
+console.log("Is num1 equal to num2? " + isEqual);
+
+// 2. Not equal to operator
+let isNotEqual = num1 != num2;
+console.log("Is num1 not equal to num2? " + isNotEqual);
+
+// 3. Greater than operator
+let isGreaterThan = num1 > num2;
+console.log("Is num1 greater than num2? " + isGreaterThan);
+
+// 4. Less than operator
+let isLessThan = num1 < num2;
+console.log("Is num1 less than num2? " + isLessThan);
+
+// 5. Greater than or equal to operator
+let isGreaterThanOrEqualTo = num1 >= num2;
+console.log("Is num1 greater than or equal to num2? " + isGreaterThanOrEqualTo);
+
+// 6. Less than or equal to operator
+let isLessThanOrEqualTo = num1 <= num2;
+console.log("Is num1 less than or equal to num2? " + isLessThanOrEqualTo);
+
