@@ -30,3 +30,70 @@ console.log("Remainder of two given numbers is: " + remainder);
 // 6. Exponentiation
 let power = Math.pow(num1, num2);
 console.log("Exponentiation of two given numbers is: " + power);
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+
+// Assignment Operators
+// 1. Equal to operator
+num1 = num2;
+console.log("Value of num1 after using equal to operator is: " + num1);
+
+// 2. Plus equal to operator
+num1 += num2;
+console.log("Value of num1 after using plus equal to operator is: " + num1);
+
+// 3. Minus equal to operator
+num1 -= num2;
+console.log("Value of num1 after using minus equal to operator is: " + num1);
+
+// 4. Multiply equal to operator
+num1 *= num2;
+console.log("Value of num1 after using multiply equal to operator is: " + num1);
+
+// 5. Divide equal to operator
+num1 /= num2;
+console.log("Value of num1 after using divide equal to operator is: " + num1);
+
+// 6. Modulus equal to operator
+num1 %= num2;
+console.log("Value of num1 after using modulus equal to operator is: " + num1);
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Comparison Operators
+// 1. Equal to operator
+let isEqual = num1 == num2;
+console.log("Is num1 equal to num2? " + isEqual);
+
+// 2. Not equal to operator
+let isNotEqual = num1 != num2;
+console.log("Is num1 not equal to num2? " + isNotEqual);
+
+// 3. Greater than operator
+let isGreaterThan = num1 > num2;
+console.log("Is num1 greater than num2? " + isGreaterThan);
+
+// 4. Less than operator
+let isLessThan = num1 < num2;
+console.log("Is num1 less than num2? " + isLessThan);
+
+// 5. Greater than or equal to operator
+let isGreaterThanOrEqualTo = num1 >= num2;
+console.log("Is num1 greater than or equal to num2? " + isGreaterThanOrEqualTo);
+
+// 6. Less than or equal to operator
+let isLessThanOrEqualTo = num1 <= num2;
+console.log("Is num1 less than or equal to num2? " + isLessThanOrEqualTo);
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+// Logical Operators
+// 1. Logical AND
+let andResult = (num1 > 0) && (num2 > 0);
+console.log("Are both num1 and num2 greater than 0? " + andResult);
+
+// 2. Logical OR
+let orResult = (num1 > 0) || (num2 > 0);
+console.log("Is at least one of num1 or num2 greater than 0? " + orResult);
+
+// 3. Logical NOT
+let notResult = !(num1 > num2);
+console.log("Is num1 not greater than num2? " + notResult);
