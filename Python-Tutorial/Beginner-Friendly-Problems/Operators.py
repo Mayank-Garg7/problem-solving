@@ -179,3 +179,11 @@ print(a is b)
 
 # is not operator
 print(x is not b)  
+
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Ternary Operator
+number = int(input("Enter a number: "))
+result = "Even" if number % 2 == 0 else "Odd"
+# Output the result
+print(f"The number {number} is {result}.")
