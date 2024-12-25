@@ -167,7 +167,7 @@ print(6 not in my_list)
 x = y = 25
 a = 25
 b = 30
-print(x is y)  # Output: True (Both x and y refer to the same object in memory)
-print(x is a)  # Output: True (Both x and a refer to the same object in memory)
-print(a is b)  # Output: False (a and b refer to different objects in memory)
-print(x is not b)  # Output: True
+print(x is y)  
+print(x is a)  
+print(a is b)  
+print(x is not b)  
