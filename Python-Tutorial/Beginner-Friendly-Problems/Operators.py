@@ -171,6 +171,7 @@ print(6 not in my_list)
 x = y = 25
 a = 25
 b = 30
+
 # is operator
 print(x is y)  
 print(x is a)  
