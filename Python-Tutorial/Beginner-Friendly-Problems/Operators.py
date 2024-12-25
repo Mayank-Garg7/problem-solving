@@ -156,8 +156,12 @@ print("not False:", not False)
 # ---------------------------------------------------------------------------------------------------------------------------------
 # Membership Operators
 my_list = [1, 2, 3, 4, 5]
+
+# in operator
 print(3 in my_list)  
 print(6 in my_list)  
+
+# not in operator
 print(3 not in my_list)  
 print(6 not in my_list)  
 
