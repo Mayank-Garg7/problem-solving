@@ -1,181 +1,95 @@
-# this program is for operators in PYTHON 
+# Python Program Demonstrating Various Operators
 
-# Prompt user for input
+# -------------------------------------------------------------------------------------------------------------------------------
+# Problem Description: Demonstrate all types of operators in Python with examples
+# Input: User inputs numbers or expressions as required
+# Output: Results of various operator computations
+
+# Prompt user for inputs
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Arithmetic Operators
-# 1. Addition
-sum = num1 + num2
-print("Addition of two given numbers is:", sum)
+print("\n--- Arithmetic Operators ---")
+print(f"Addition: {num1} + {num2} = {num1 + num2}")
+print(f"Subtraction: {num1} - {num2} = {num1 - num2}")
+print(f"Multiplication: {num1} * {num2} = {num1 * num2}")
+print(f"Division: {num1} / {num2} = {num1 / num2}")
+print(f"Floor Division: {num1} // {num2} = {num1 // num2}")
+print(f"Modulus: {num1} % {num2} = {num1 % num2}")
+print(f"Exponentiation: {num1} ** {num2} = {num1 ** num2}")
 
-# 2. Subtraction
-difference = num1 - num2
-print("Subtraction of two given numbers is:", difference)
-
-# 3. Multiplication
-product = num1 * num2
-print("Multiplication of two given numbers is:", product)
-
-# 4. Division
-quotient = num1 / num2
-print("Division of two given numbers is:", quotient)
-
-# 5. Floor Division
-floor_division = num1 // num2
-print("Floor Division of two given numbers is:", floor_division)
-
-# 6. Modulus
-remainder = num1 % num2
-print("Remainder of two given numbers is:", remainder)
-
-# 7. Exponentiation
-power = num1 ** num2
-print("Exponentiation of two given numbers is:", power)
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Comparison Operators
-# 1. Greater Than
-greater_than = num1 > num2
-print("Is num1 greater than num2?", greater_than)
+print("\n--- Comparison Operators ---")
+print(f"Is {num1} > {num2}? {num1 > num2}")
+print(f"Is {num1} < {num2}? {num1 < num2}")
+print(f"Is {num1} >= {num2}? {num1 >= num2}")
+print(f"Is {num1} <= {num2}? {num1 <= num2}")
+print(f"Is {num1} == {num2}? {num1 == num2}")
+print(f"Is {num1} != {num2}? {num1 != num2}")
 
-# 2. Less Than
-less_than = num1 < num2
-print("Is num1 less than num2?", less_than)
-
-# 3. Greater Than or Equal To
-greater_than_or_equal_to = num1 >= num2
-print("Is num1 greater than or equal to num2?", greater_than_or_equal_to)
-
-# 4. Less Than or Equal To
-less_than_or_equal_to = num1 <= num2
-print("Is num1 less than or equal to num2?", less_than_or_equal_to)
-
-# 5. Equal To
-equal_to = num1 == num2
-print("Is num1 equal to num2?", equal_to)
-
-# 6. Not Equal To
-not_equal_to = num1 != num2
-print("Is num1 not equal to num2?", not_equal_to)
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Assignment Operators
-# 1. Simple Assignment
-x = num1 
-print("Value of x after simple assignment:", x)
+print("\n--- Assignment Operators ---")
+x = num1
+print(f"Initial assignment: x = {x}")
+x += 3
+print(f"Addition assignment (x += 3): x = {x}")
+x -= 3
+print(f"Subtraction assignment (x -= 3): x = {x}")
+x *= 3
+print(f"Multiplication assignment (x *= 3): x = {x}")
+x /= 3
+print(f"Division assignment (x /= 3): x = {x}")
+x //= 3
+print(f"Floor division assignment (x //= 3): x = {x}")
+x %= 3
+print(f"Modulus assignment (x %= 3): x = {x}")
+x **= 3
+print(f"Exponentiation assignment (x **= 3): x = {x}")
 
-# 2. Addition Assignment
-x = 5
-x += 3 
-print("Value of x after addition assignment:", x)
-
-# 3. Subtraction Assignment
-x = 10
-x -= 3 
-print("Value of x after subtraction assignment:", x)
-
-# 4. Multiplication Assignment
-x = 5
-x *= 3 
-print("Value of x after multiplication assignment:", x)
-
-# 5. Division Assignment
-x = 10
-x /= 3 
-print("Value of x after division assignment:", x)
-
-# 6. Floor Division Assignment
-x = 10
-x //= 3 
-print("Value of x after floor division assignment:", x)
-
-# 7. Modulus Assignment
-x = 10
-x %= 3 
-print("Value of x after modulus assignment:", x)
-
-# 8. Exponentiation Assignment
-x = 2
-x **= 3 
-print("Value of x after exponentiation assignment:", x)
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Bitwise Operators
-# 1. Bitwise AND
-a = 10  
-b = 4   
-bitwise_and = a & b 
-print("Bitwise AND of a and b:", bitwise_and) 
+a, b = 10, 4
+print("\n--- Bitwise Operators ---")
+print(f"Bitwise AND ({a} & {b}): {a & b}")
+print(f"Bitwise OR ({a} | {b}): {a | b}")
+print(f"Bitwise XOR ({a} ^ {b}): {a ^ b}")
+print(f"Bitwise NOT (~{a}): {~a}")
+print(f"Left Shift ({a} << 2): {a << 2}")
+print(f"Right Shift ({a} >> 2): {a >> 2}")
 
-# 2. Bitwise OR
-bitwise_or = a | b 
-print("Bitwise OR of a and b:", bitwise_or)
-
-# 3. Bitwise XOR
-bitwise_xor = a ^ b 
-print("Bitwise XOR of a and b:", bitwise_xor)
-
-# 4. Bitwise NOT
-bitwise_not_a = ~a 
-print("Bitwise NOT of a:", bitwise_not_a)
-
-# 5. Left Shift
-left_shift = a << 2 
-print("Left Shift of a by 2 positions:", left_shift)
-
-# 6. Right Shift
-right_shift = a >> 2 
-print("Right Shift of a by 2 positions:", right_shift)
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Logical Operators
-# 1. Logical AND
-print("True and True:", True and True)
-print("True and False:", True and False)
-print("False and True:", False and True)
-print("False and False:", False and False)
+print("\n--- Logical Operators ---")
+print(f"True and True: {True and True}")
+print(f"True and False: {True and False}")
+print(f"False or True: {False or True}")
+print(f"not True: {not True}")
 
-# 2. Logical OR
-print("True or True:", True or True)
-print("True or False:", True or False)
-print("False or True:", False or True)
-print("False or False:", False or False)
-
-# 3. Logical NOT
-print("not True:", not True)
-print("not False:", not False)
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Membership Operators
 my_list = [1, 2, 3, 4, 5]
+print("\n--- Membership Operators ---")
+print(f"Is 3 in {my_list}? {3 in my_list}")
+print(f"Is 6 in {my_list}? {6 in my_list}")
+print(f"Is 3 not in {my_list}? {3 not in my_list}")
+print(f"Is 6 not in {my_list}? {6 not in my_list}")
 
-# in operator
-print(3 in my_list)  
-print(6 in my_list)  
-
-# not in operator
-print(3 not in my_list)  
-print(6 not in my_list)  
-
-
-# ---------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------
 # Identity Operators
-x = y = 25
-a = 25
-b = 30
+x, y = 25, 25
+a, b = 25, 30
+print("\n--- Identity Operators ---")
+print(f"Is x ({x}) the same object as y ({y})? {x is y}")
+print(f"Is x ({x}) the same object as a ({a})? {x is a}")
+print(f"Is a ({a}) the same object as b ({b})? {a is b}")
+print(f"Is x ({x}) not the same object as b ({b})? {x is not b}")
 
-# is operator
-print(x is y)  
-print(x is a)  
-print(a is b)  
-
-# is not operator
-print(x is not b)  
+# -------------------------------------------------------------------------------------------------------------------------------
+# Ternary Operator
+number = int(input("\nEnter a number to check even or odd: "))
+result = "Even" if number % 2 == 0 else "Odd"
+print(f"The number {number} is {result}.")
