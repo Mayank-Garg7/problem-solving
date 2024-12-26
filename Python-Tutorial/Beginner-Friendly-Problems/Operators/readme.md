@@ -4,7 +4,7 @@ This repository contains a Python program that demonstrates the usage of various
 
 ## Files Included
 
-- **`python_operators_demo.py`**: The main Python script containing the operator demonstrations.
+- **`Operators.py`**: The main Python script containing the operator demonstrations.
 
 - **`README.md`**: This file, describing the project structure, purpose, and how to run the program.
 
